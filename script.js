@@ -13,7 +13,7 @@ const choice = {
 play();
 function play() {
     // user input
-let userInput = Number(prompt('Enter a number 1 for Rock, 2 for Stone, 3 for Scissor'));
+let userInput = Number(prompt('Enter a number 1 for Rock, 2 for Paper, 3 for Scissor'));
 
 // user choice
 let userChoice = choice[userInput];
